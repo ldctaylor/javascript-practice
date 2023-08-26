@@ -1,0 +1,6 @@
+function add() {
+    let numberElement = document.getElementById("number");
+    let number = numberElement.innerText;
+    number = parseInt(number) + 1;
+    numberElement.innerText = number;
+}
