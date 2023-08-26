@@ -1,6 +1,6 @@
-function add() {
+function add(step) {
     let numberElement = document.getElementById("number");
     let number = numberElement.innerText;
-    number = parseInt(number) + 1;
+    number = parseInt(number) + step;
     numberElement.innerText = number;
 }
