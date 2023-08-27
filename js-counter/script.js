@@ -17,3 +17,21 @@ function reset() {
     let number = 0;
     numberElement.innerText = number;
 }
+
+function addby() {
+    let numberElement = document.getElementById("number");
+    let stepElement = document.getElementById("usernum");
+    let step = stepElement.value;
+    let number = numberElement.innerText;
+    number = parseInt(number) + parseInt(step);
+    numberElement.innerText = number;
+}
+
+function subtractby() {
+    let numberElement = document.getElementById("number");
+    let stepElement = document.getElementById("usernum");
+    let step = stepElement.value;
+    let number = numberElement.innerText;
+    number = parseInt(number) - parseInt(step);
+    numberElement.innerText = number;
+}
